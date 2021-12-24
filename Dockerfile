@@ -1,4 +1,4 @@
-FROM node:10.22.1-stretch
+FROM node:dubnium
 
 ENV HOME /home
 ENV NODE_OPTIONS --max-old-space-size=6144
